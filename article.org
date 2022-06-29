@@ -1,0 +1,24 @@
+#+OPTIONS: toc:nil
+#+OPTIONS: num:nil
+
+#+bibliography: /home/arcotpixel/bib/references.bib
+#+CSL_STYLE: /home/arcotpixel/Zotero/styles/american-medical-association.csl
+
+* Background:
+Embryologically, the left brachiocephalic vein (LBV) originates as an anastamotic channel between the right and left /anterior/ cardinal veins [cite/Vancouver:@mozes_chapter_2007].
+This positions the LBV between the manubrium sterni anteriorly and the aorta and innominate artery posteriorly [cite:@standring_grays_2015].
+This pattern of adjacency of the aorta to the LBV is unique to mammals and results from a quirk of evolution [cite:@hirokawa_leftright_2009].
+With age, the ascending aorta, unfolds, elongates and dilates [cite:@ohyama_imaging_2018].
+Simultaneously, there is a change in the thoracic geometry that reduces the thoracic volume primarily from disc height loss and kyphosis [cite:@holcombe_age-related_2017].
+These transitions progressively compress the LBV. Normally this compression is circumvented via collateral pathways and "Blood finds a way" [cite:@marini_blood_2019].
+However "What if these collaterals are insuffcicient?" is a question that has not been answered. It is possible that there is no clinical detriment and this is just an innocuous finding.
+On the contrary, it may signal a whole class of neurological disorders and explain the pathophysiology of hitherto unexplained neurological and neurodegenrative conditions.
+
+* Embryology, Anatomy and Radiology:
+The anterior cardinal veins drain the cephalic portion of the embryo.
+During week eight of development the thyroid and thymic veins join to form a large transverse anastamosis superior to the common cardinal veins.
+This anastamosis allows blood from the cephalic portion of left anterior cardinal vein ie: the future left internal jugular vein to reach the junction of the right anterior cardinal vein (the future right internal jugular vein) and right common cardinal vein (future superior venacava).
+* Discussion:
+
+
+#+BIBLIOGRAPHY: here
