@@ -19,7 +19,23 @@ The anterior cardinal veins drain the cephalic portion of the embryo.
 During week eight of development the thyroid and thymic veins join to form a large transverse anastamosis superior to the common cardinal veins.
 This anastamosis allows blood from the cephalic portion of left anterior cardinal vein (future left internal jugular vein) to reach the junction of the right anterior cardinal vein (future right internal jugular vein) and right common cardinal vein (future superior venacava (SVC)).
 Various developmental venous malformations (left sided SVC, double SVC) may occur if the above does not proceed according to plan [cite:@white_anatomy_2022].
-Normally however, one ends up with an efficent LBV that transports blood from the left internal jugular vein to the SVC. Until, of course, it is smothered by its more sturdy neighbours.
+Normally however, one ends up with an efficent LBV that transports blood from the left internal jugular vein to the SVC. Until, of course, it is smothered by its more sturdy anatomical neighbours.
+
+Symmetry breakdown in the embryo reults in a left-right patterning of organs [cite:@hirokawa_leftright_2009].
+This process is consistent and normally results in a left sided aorta in mammals.
+As the aorta loops to the left it gives rise to the innominate artery which courses back across the midline.
+This midline in the superior mediastinum is crowded and contains the thymus, left brachiocephalic vein, aortic arch, innominate artery, trachea and the esophagus bounded by the sternum anteriorly and the thoracic vertebrae posteriorly [cite:@stoddard_anatomy_2022].
+With aging, the aorta and innominate artery elongate, stiffen and dilate [cite:@ohyama_imaging_2018].
+The trachea and esophagus also simultaneously stiffen [cite:@gregersen_deterioration_2008; @safshekan_mechanical_2016].
+The thymus involutes and is replaced by fatty tissue [cite:@rezzani_thymus_2014].
+This leaves a hapless left brachiocephalic vein with no prospects and a gradual extrinsic compresssion ensues.
+Collateral flow begins to increase via multiple possible pathways [cite:@meier_venous_2019] and for a while there is no discernible effect.
+Eventually, in some individuals the venous collaterals will not suffice and symptoms will ensue.
+
+This entity is notoriously hard to diagnose via convesntional non invasive techniques.
+It is nearly impossible to pick it up on CT angiograms that are obtained with right arm injections.
+
+
 
 * Discussion:
 
