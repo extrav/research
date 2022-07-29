@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2022-07-29 Fri 07:39 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="arcotpixel" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="outline-container-orgfb792b8" class="outline-2">
+<h2 id="orgfb792b8">Syndrome Sinistre: Left Brachiocephalic Vein Compression as an insidious cause of Neurological Disorders</h2>
+</div>
+<div id="outline-container-org26953ff" class="outline-2">
+<h2 id="org26953ff">Background:</h2>
+<div class="outline-text-2" id="text-org26953ff">
+<p>
+Embryologically, the left brachiocephalic vein (LBV) originates as an anastamotic channel between the right and left <i>anterior</i> cardinal veins <sup><a href="#citeproc_bib_item_1">1</a></sup>.
+This positions the LBV between the manubrium sterni anteriorly and the aorta and innominate artery posteriorly <sup><a href="#citeproc_bib_item_2">2</a></sup>.
+This pattern of adjacency of the aorta to the LBV is unique to mammals and results from a quirk of evolution <sup><a href="#citeproc_bib_item_3">3</a></sup>.
+With age, the ascending aorta, unfolds, elongates and dilates <sup><a href="#citeproc_bib_item_4">4</a></sup>.
+Simultaneously, there is a change in the thoracic geometry that reduces the thoracic volume primarily from disc height loss and kyphosis <sup><a href="#citeproc_bib_item_5">5</a></sup>.
+These transitions progressively compress the LBV. Normally this compression is circumvented via collateral pathways and "Blood finds a way" <sup><a href="#citeproc_bib_item_6">6</a></sup>.
+However "What if these collaterals are insuffcicient?" is a question that has not been answered. It is possible that there is no clinical detriment and this is just an innocuous finding.
+On the contrary, it may signal a whole class of neurological disorders and explain the pathophysiology of hitherto unexplained neurological and neurodegenrative conditions.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgabf9649" class="outline-2">
+<h2 id="orgabf9649">Embryology, Anatomy and Radiology:</h2>
+<div class="outline-text-2" id="text-orgabf9649">
+<p>
+The anterior cardinal veins drain the cephalic portion of the embryo.
+During week eight of development the thyroid and thymic veins join to form a large transverse anastamosis superior to the common cardinal veins.
+This anastamosis allows blood from the cephalic portion of left anterior cardinal vein (future left internal jugular vein) to reach the junction of the right anterior cardinal vein (future right internal jugular vein) and right common cardinal vein (future superior venacava (SVC)).
+Various developmental venous malformations (left sided SVC, double SVC) may occur if the above does not proceed according to plan <sup><a href="#citeproc_bib_item_7">7</a></sup>.
+Normally however, one ends up with an efficent LBV that transports blood from the left internal jugular vein to the SVC. Until, of course, it is smothered by its more sturdy neighbours.
+</p>
+
+<p>
+The LBV vein is approximately 6 cm to 7 cm long. It is formed by the confluence of the left internal jugular vein and the left subclavian vein behind the left sternoclavicular joint.
+It then runs and obliuqe and downward course to the right to join the right brachiocephalic vein and form the superior vena cava behind the sternum and the first intercostal space.
+In its course, it receives the the following veins: left  vertebral, left inferior thyroid, left internal thoracic, left superior intercostal, left supreme intercostal, thymic and pericardiacophrenic veins.
+Its relations with its less compliant neighbours forms the crux of this syndrome.
+It initially runs anterior to the parietal pleura of the lung and then enters a valley between the bony manubrium anteriorly and an unyielding innominate artery posteriorly <sup><a href="#citeproc_bib_item_2">2</a></sup>.
+It is in this valley that the LBV gets trapped usually for a few millimeters congruent with the portion in contact with the innominate artery.
+</p>
+
+<p>
+The radiological findings are often obvious but the apparent lack of clinical relevance lends to under reporting.
+As an example, osteporotic vertebral fractures suffer a similar fate <sup><a href="#citeproc_bib_item_8">8</a></sup>.
+There are excellent examples of LBV compression with resultant venous reflux on CT angiography <sup><a href="#citeproc_bib_item_9">9</a>, <a href="#citeproc_bib_item_10">10</a></sup>.
+Similar findings are noted on MR Venography <sup><a href="#citeproc_bib_item_11">11</a></sup>.
+Intravascular ultrasound however appears to be the the new "gold standard" especially if right sided injections are performed for CT angiography and MR venography of the neck does not extend down to the level of the LBV.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org0e23dab" class="outline-2">
+<h2 id="org0e23dab">Discussion:</h2>
+<div class="outline-text-2" id="text-org0e23dab">
+<p>
+LBV compression should be expected to occur and progress with aging due to the anatomical factors described above.
+It should generally be asymptomatic given the remarkable redundancy of the venous system and its collaterals.
+Symptoms should and do ensue when the venous collaterals are either insufficient or overwhelmed.
+This can be compounded by venous obstruction on the contralteral side, which is not uncommon.
+For example, trapping of the right internal jugular vein at the level of the C1 transverse process.
+In fact it might be necesary for bilateral outflow obstruction given the nature of the connections between the dural sinuses.
+This results in the emergence of two pathophysiological states.
+One governed by a build up of pressure due to venous hypertension and the other governed by stagnation / venous congestion.
+The venous hypertensive state could potentially explain the mechanical effects such as headache and disorders that arise from obstruction of csf.
+Accumulation of toxic waste metabolites <sup><a href="#citeproc_bib_item_12">12</a></sup> due to poor venous outflow could potentially explain the chemical effects that lead to neurodegenration.
+Clinically, in my experience, there appears to be a predeliction for headaches, vertigo, tinnitus, deafness and imbalance.
+Ageing is a risk factor for neurodegenerative disease <sup><a href="#citeproc_bib_item_13">13</a></sup> and ageing is a risk factor for LBV compression.
+Is it possible that the LBV compression is an important precursor to neurodegenrative diseases?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb5909b8" class="outline-2">
+<h2 id="orgb5909b8">Conclusion:</h2>
+<div class="outline-text-2" id="text-orgb5909b8">
+<p>
+There have been multiple attempts to link singular neurological disorders to venous outflow obstruction.
+The prime example was chronic cerebro spinal venous insufficiency which tied itself to multiple sclerosis <sup><a href="#citeproc_bib_item_14">14</a></sup>.
+It was heralded by a flurry of research which simply imploded when the initial results were not widely repoducible <sup><a href="#citeproc_bib_item_15">15</a></sup>.
+This may have been responsible for the general perecption of dubiousness and outright opposition to venous procedures for neurological disorders.
+As another example, transverse sinus stenosis as a cause of intracranial hypertension, is a more recent association that appears in need of definitive evidence to become widely accepted <sup><a href="#citeproc_bib_item_16">16</a></sup>.
+The list continues on with conditions such as transient global amnesia <sup><a href="#citeproc_bib_item_11">11</a></sup>, deafness <sup><a href="#citeproc_bib_item_17">17</a></sup>, Normal Pressure Hydeocephalus <sup><a href="#citeproc_bib_item_18">18</a></sup> and so on.
+</p>
+
+<p>
+One could argue that a more holistic approach is in order.
+If such an approach was applied, the entire class of disorders, neurological or otherwise would come under an umbrella term such as Venous Outflow Obstruction Disorders (Voodoo).
+The venous hierarchy (for the superior vena caval system) would be along anatomical lines beginning with the cortical veins, coursing through the superior sagittal, inferior sagittal and straight sinuses, moving on to the transverse and signoid sinuses, followed by the paired jugular and brachiocephalic veins with the superior venacava and the right heart, pulmonary arteries and left heart forming the inferior portions.
+Theoretically, any dowstream segment in the hierarchy should be able to affect any upstream segment and produce its congruent disorder.
+For example, one should not be surprised when superior vena caval stenosis produces papilledema in a patient and similarly not be surprised if transverse sinus stenting does not relieve the papilledema in said patient.
+Thus it would be important to evaluate the entire pathway and treat tandem lesions, in some cases bilaterally in order to provide good venous outflow from both the superficial and deep pathways.
+</p>
+
+<p>
+LBV compression would fall into this class of disorders. The neurological symptoms would depend on which drainage pathway was affected.
+On the surface, it appears to associated with seemingly innocuous complaints such as headache and vertigo.
+At a deeper level it may a precursor to more sinister neurodegenrative disorders.
+Given the technical ease of its treatment with stenting, it is a serious target for further research that can shed light on this condition.
+</p>
+
+
+
+
+<style>.csl-left-margin{float: left; padding-right: 0em;} .csl-right-inline{margin: 0 0 0 2.4em;}</style><h2 class='citeproc-org-bib-h2'>Bibliography</h2>
+<div class="csl-bib-body">
+  <div class="csl-entry"><a id="citeproc_bib_item_1"></a>
+    <div class="csl-left-margin">1. </div><div class="csl-right-inline">Mozes G, Gloviczki P. CHAPTER 2 - Venous Embryology and Anatomy. In: Bergan JJ, ed. <i>The Vein Book</i>. Academic Press; 2007:15-25. doi:<a href="https://doi.org/10.1016/B978-012369515-4/50005-3">10.1016/B978-012369515-4/50005-3</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_2"></a>
+    <div class="csl-left-margin">2. </div><div class="csl-right-inline">Standring S. <i>Gray’s Anatomy E-Book: The Anatomical Basis of Clinical Practice</i>. Elsevier; 2015. <a href="http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4187461">http://ebookcentral.proquest.com/lib/nyulibrary-ebooks/detail.action?docID=4187461</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_3"></a>
+    <div class="csl-left-margin">3. </div><div class="csl-right-inline">Hirokawa N, Tanaka Y, Okada Y. Left–Right Determination: Involvement of Molecular Motor KIF3, Cilia, and Nodal Flow. <i>Cold Spring Harbor Perspectives in Biology</i>. 2009;1(1):a000802. doi:<a href="https://doi.org/10.1101/cshperspect.a000802">10.1101/cshperspect.a000802</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_4"></a>
+    <div class="csl-left-margin">4. </div><div class="csl-right-inline">Ohyama Y, Redheuil A, Kachenoura N, Ambale Venkatesh B, Lima JA. Imaging Insights on the Aorta in Aging. <i>Circulation: Cardiovascular Imaging</i>. 2018;11(4):e005617. doi:<a href="https://doi.org/10.1161/CIRCIMAGING.117.005617">10.1161/CIRCIMAGING.117.005617</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_5"></a>
+    <div class="csl-left-margin">5. </div><div class="csl-right-inline">Holcombe SA, Wang SC, Grotberg JB. Age-related changes in thoracic skeletal geometry of elderly females. <i>Traffic Injury Prevention</i>. 2017;18(sup1):S122-S128. doi:<a href="https://doi.org/10.1080/15389588.2017.1309526">10.1080/15389588.2017.1309526</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_6"></a>
+    <div class="csl-left-margin">6. </div><div class="csl-right-inline">Marini TJ, Chughtai K, Nuffer Z, Hobbs SK, Kaproth-Joslin K. Blood finds a way: pictorial review of thoracic collateral vessels. <i>Insights into Imaging</i>. 2019;10(1):63. doi:<a href="https://doi.org/10.1186/s13244-019-0753-3">10.1186/s13244-019-0753-3</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_7"></a>
+    <div class="csl-left-margin">7. </div><div class="csl-right-inline">White HJ, Soos MP. Anatomy, Thorax, Superior Vena Cava. In: <i>StatPearls</i>. StatPearls Publishing; 2022. <a href="http://www.ncbi.nlm.nih.gov/books/NBK545255/">http://www.ncbi.nlm.nih.gov/books/NBK545255/</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_8"></a>
+    <div class="csl-left-margin">8. </div><div class="csl-right-inline">Williams AL, Al-Busaidi A, Sparrow PJ, Adams JE, Whitehouse RW. Under-reporting of osteoporotic vertebral fractures on computed tomography. <i>European Journal of Radiology</i>. 2009;69(1):179-183. doi:<a href="https://doi.org/10.1016/j.ejrad.2007.08.028">10.1016/j.ejrad.2007.08.028</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_9"></a>
+    <div class="csl-left-margin">9. </div><div class="csl-right-inline">Seth R, Bhatia V, Jain C, Kumar A. Intracranial Venous Sinus Reflux on CT Angiography: Benign or Malignant Entity? <i>The Indian Journal of Radiology &#38; Imaging</i>. 2022;31(4):1075-1078. doi:<a href="https://doi.org/10.1055/s-0041-1741097">10.1055/s-0041-1741097</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_10"></a>
+    <div class="csl-left-margin">10. </div><div class="csl-right-inline">Tseng YC, Hsu HL, Lee TH, Chen CJ. Venous Reflux on Carotid Computed Tomography Angiography: Relationship With Left-Arm Injection. <i>Journal of Computer Assisted Tomography</i>. 2007;31(3):360-364. doi:<a href="https://doi.org/10.1097/01.rct.0000243445.95491.f2">10.1097/01.rct.0000243445.95491.f2</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_11"></a>
+    <div class="csl-left-margin">11. </div><div class="csl-right-inline">Han K, Chao AC, Chang FC, et al. Obstruction of Venous Drainage Linked to Transient Global Amnesia. <i>PloS One</i>. 2015;10(7):e0132893. doi:<a href="https://doi.org/10.1371/journal.pone.0132893">10.1371/journal.pone.0132893</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_12"></a>
+    <div class="csl-left-margin">12. </div><div class="csl-right-inline">Cheng Y, Haorah J. How does the brain remove its waste metabolites from within? <i>International Journal of Physiology, Pathophysiology and Pharmacology</i>. 2019;11(6):238-249. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6971497/">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6971497/</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_13"></a>
+    <div class="csl-left-margin">13. </div><div class="csl-right-inline">Hou Y, Dan X, Babbar M, et al. Ageing as a risk factor for neurodegenerative disease. <i>Nature Reviews Neurology</i>. 2019;15(10):565-581. doi:<a href="https://doi.org/10.1038/s41582-019-0244-7">10.1038/s41582-019-0244-7</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_14"></a>
+    <div class="csl-left-margin">14. </div><div class="csl-right-inline">Zamboni P, Galeotti R, Menegatti E, et al. Chronic cerebrospinal venous insufficiency in patients with multiple sclerosis. <i>Journal of Neurology, Neurosurgery, and Psychiatry</i>. 2009;80(4):392-399. doi:<a href="https://doi.org/10.1136/jnnp.2008.157164">10.1136/jnnp.2008.157164</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_15"></a>
+    <div class="csl-left-margin">15. </div><div class="csl-right-inline">Baracchini C, Valdueza JM, Del Sette M, et al. CCSVI and MS: a statement from the European Society of neurosonology and cerebral hemodynamics. <i>Journal of Neurology</i>. 2012;259(12):2585-2589. doi:<a href="https://doi.org/10.1007/s00415-012-6541-3">10.1007/s00415-012-6541-3</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_16"></a>
+    <div class="csl-left-margin">16. </div><div class="csl-right-inline">Gurney SP, Ramalingam S, Thomas A, Sinclair AJ, Mollan SP. Exploring The Current Management Idiopathic Intracranial Hypertension, And Understanding The Role Of Dural Venous Sinus Stenting\textless/p\textgreater. <i>Eye and Brain</i>. 2020;12:1-13. doi:<a href="https://doi.org/10.2147/EB.S193027">10.2147/EB.S193027</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_17"></a>
+    <div class="csl-left-margin">17. </div><div class="csl-right-inline">Griffith AN. Venous Obstruction of the Labyrinth: Some Experimental and Anatomical Studies. <i>Proceedings of the Royal Society of Medicine</i>. 1961;54(10):917-922. doi:<a href="https://doi.org/10.1177/003591576105401017">10.1177/003591576105401017</a></div>
+  </div>
+  <div class="csl-entry"><a id="citeproc_bib_item_18"></a>
+    <div class="csl-left-margin">18. </div><div class="csl-right-inline">Satow T, Aso T, Nishida S, et al. Alteration of Venous Drainage Route in Idiopathic Normal Pressure Hydrocephalus and Normal Aging. <i>Frontiers in Aging Neuroscience</i>. 2017;9:387. doi:<a href="https://doi.org/10.3389/fnagi.2017.00387">10.3389/fnagi.2017.00387</a></div>
+  </div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: arcotpixel</p>
+<p class="date">Created: 2022-07-29 Fri 07:39</p>
+</div>
+</body>
+</html>
