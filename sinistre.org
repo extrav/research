@@ -1,11 +1,16 @@
 #+OPTIONS: toc:nil
 #+OPTIONS: num:nil
 #+OPTIONS: Author:nil
+#+OPTIONS: ^:{}
 
 #+bibliography: /home/arcotpixel/research/bib/references.bib
 #+CSL_STYLE: /home/arcotpixel/research/Zotero/styles/american-medical-association.csl
-* Syndrome Sinistre: Left Brachiocephalic Vein Compression and its Neurological Manifestations.
-* Background:
+** Syndrome Sinistre: Left Brachiocephalic Vein Compression and its Neurological Manifestations.
+**** Authors: Karthikeyan M. Arcot^{1,2}, Vincent DeOrchis^{1}
+**** Affiliations:
+ 1. St. Francis Hospital & Heart Center
+ 2. New York University Langone Health
+*** Background:
 Embryologically, the left brachiocephalic vein (LBV) originates as an anastomotic channel between the right and left /anterior/ cardinal veins [cite/Vancouver:@mozes_chapter_2007].
 This positions the LBV between the manubrium sterni anteriorly and the innominate artery posteriorly [cite:@standring_grays_2015].
 This pattern of adjacency of the aorta to the LBV is unique to mammals and results from a quirk of evolution [cite:@hirokawa_leftright_2009].
@@ -18,24 +23,24 @@ The brain could potentially accommodate this congestion, in which case LBV compr
 On the other hand, the brain might not tolerate this congestion.
 LBV compression may then open up a new avenue to explore and treat neurological and neurodegenerative conditions that originate from venous congestion.
 
-* Embryology, Anatomy, Radiology and Clinical Features:
+*** Embryology, Anatomy, Radiology and Clinical Features:
 The anterior cardinal veins drain the cephalic portion of the embryo.
 During week eight of development the thyroid and thymic veins join to form a large transverse anastomosis superior to the common cardinal veins.
 This anastomosis allows blood from the cephalic portion of left anterior cardinal vein (future left internal jugular vein) to reach the junction of the right anterior cardinal vein (future right internal jugular vein) and right common cardinal vein (future superior vena cava (SVC)).
 Various developmental venous malformations (left sided SVC, double SVC) may occur if the above does not proceed according to plan [cite:@white_anatomy_2022].
 Normally however, one ends up with an efficient LBV that transports blood from the left internal jugular vein to the superior vena cava.
-Until, of course, it is smothered by its more sturdy neighbours.
+Until, of course, it is smothered by its sturdier neighbours.
 
 The LBV vein is approximately 6 cm to 7 cm long.
 It is formed by the confluence of the left internal jugular vein and the left subclavian vein behind the left sternoclavicular joint.
 It then runs an oblique and downward course to the right to join the right brachiocephalic vein and form the superior vena cava behind the sternum and the first intercostal space.
 In its course, it receives the following veins: left  vertebral, left inferior thyroid, left internal thoracic, left superior intercostal, left supreme intercostal, thymic and pericardiacophrenic veins.
-Its relations with its less compliant neighbours forms the crux of this syndrome.
+Its relationship with its less compliant neighbours forms the crux of this syndrome.
 It initially runs anterior to the parietal pleura of the lung and then enters a valley between the bony manubrium anteriorly and an unyielding innominate artery posteriorly [cite:@standring_grays_2015].
 It is in this valley that the LBV gets trapped usually for a few millimeters congruent with the portion in contact with the innominate artery.
 
-The radiological findings are often obvious but the apparent lack of clinical relevance lends to under reporting.
-As an example, osteporotic vertebral fractures suffer a similar fate [cite:@williams_under-reporting_2009].
+The radiological findings are often obvious but the apparent lack of clinical relevance lends to underreporting.
+As an example, osteoporotic vertebral fractures suffer a similar fate [cite:@williams_under-reporting_2009].
 There are excellent examples of LBV compression with resultant venous reflux on CT angiography [cite:@seth_intracranial_2022; @tseng_venous_2007].
 Similar findings are noted on MR Venography [cite:@han_obstruction_2015].
 However, this condition will continue to elude detection by CT angiography, if right sided injections are performed [cite:@tseng_venous_2007] and MR venography of the neck if coverage does not extend down to the level of the LBV.
@@ -45,11 +50,11 @@ Intravascular ultrasound (IVUS) should be the new "gold standard" for diagnosis 
 #+ATTR_HTML: :width 400px
 [[file:images/LBVivus.jpg]]
 
-Clinically,there appears to be a predilection for headaches, vertigo, tinnitus, deafness and imbalance.
+Clinically, there appears to be a predilection for headaches, vertigo, tinnitus, deafness and imbalance.
 Some patients report a disabling "brain fog" in addition.
-Conventional catheter based angiography is useful in depicting the delay in venous emptying or stagnation or slowing of flow in the left internal jugular vein.
+Conventional catheter-based angiography is useful in depicting the delay in venous emptying or stagnation or slowing of flow in the left internal jugular vein.
 It is also useful in depicting a radiological improvement in flow after treatment.
-Conventional catheter based venography is a poor modality to detect this condition, as the plane of compression is usually parallel to the antero-posterior plane and the lateral plane is obscured by the patient's arms.
+Conventional catheter-based venography is a poor modality to detect this condition, as the plane of compression is usually parallel to the antero-posterior plane and the lateral plane is obscured by the patient's arms.
 Venous stagnation, reflux and diverticula are often noted.
 
 #+CAPTION: A. Delayed phase of arterial angiogram showing poor flow in the left internal jugular vein (orange arrow) with B. normalization after stenting of the left brachiocephalic vein C. Left Internal Jugular Vein injection with retrograde flow into the cranium, continuing across the torcula and emptying via the right internal jugular vein due to LBV compression (orange arrow) D. Left Brachiocephalic Stent Outlined with orange line
@@ -57,13 +62,13 @@ Venous stagnation, reflux and diverticula are often noted.
 [[file:./images/LBVprocedure.jpg]]
 
 As an interesting aside, there occurs an intersection between pacemakers / defibrillators and LBV compression.
-The leads are typically inserted on the side of the non dominant hand [cite:@noauthor_pacemaker_2017].
+The leads are typically inserted on the side of the non-dominant hand [cite:@noauthor_pacemaker_2017].
 They can occupy some valuable space in the LBV and produce the above symptoms.
 #+CAPTION: Pacemaker leads compounding the venous outflow obstruction in the setting of LBV compression.
 #+ATTR_HTML: :width 400px
 file:./images/LBVpacemakerleads.jpg
 
-* Discussion:
+*** Discussion:
 LBV compression should be expected to occur and progress with aging due to the anatomical factors described above.
 It should generally be asymptomatic given the remarkable redundancy of the venous system and its collaterals.
 Symptoms should and do ensue when the venous collaterals are either insufficient or overwhelmed.
